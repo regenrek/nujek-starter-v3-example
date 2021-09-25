@@ -1018,15 +1018,32 @@
     mkdirp "^1.0.4"
     rimraf "^3.0.2"
 
-"@nujek/bundle@^3.0.0":
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/@nujek/bundle/-/bundle-3.0.0.tgz#7372b2105e21245e4c5933da9ccca4ab249d3f6d"
-  integrity sha512-VK0LrkBFZSNoH5femJfTrapblUefhTcYYrKoFAy0WxvlsWx6dhXJMPKjeuBn2MQIXFnRt3gNPEk2ECtklDDY7Q==
+"@nujek/blok@latest":
+  version "1.4.9"
+  resolved "https://registry.yarnpkg.com/@nujek/blok/-/blok-1.4.9.tgz#7640c4fae3e1acd019c4f4d76e356ec8bece783a"
+  integrity sha512-Deldt8uZl4Wt83dxLubivPhHBN3VqOJJDE/A8dCQa9+P+7dh7m/wEpzs4iBB3esTXXMf9YsQXu+ZXREIk+cr9g==
+  dependencies:
+    "@nujek/dynamic" latest
+
+"@nujek/bundle@^3.0.3":
+  version "3.0.3"
+  resolved "https://registry.yarnpkg.com/@nujek/bundle/-/bundle-3.0.3.tgz#c9e9a6d9cd752fd7e57ad2e7d71af3f98034ef3e"
+  integrity sha512-qi/qtylOWGoAWbgay2LfcC2xBFJmSad3P6xVGk0tF/7yytm3s5nJ7MEbsxTWnt/DocIRi0rsxu07XErxeXAjDw==
   dependencies:
     "@marvr/storyblok-rich-text-vue-renderer" "^2.0.1"
     "@nujek/shared" latest
     "@nujek/storyblok" "^3"
     "@nujek/ui" "^3"
+    "@nuxtjs/composition-api" "^0.29.2"
+    "@nuxtjs/tailwindcss" "^4.2.1"
+
+"@nujek/dynamic@latest":
+  version "1.5.10"
+  resolved "https://registry.yarnpkg.com/@nujek/dynamic/-/dynamic-1.5.10.tgz#b62407f9d6c9348c5dbf145e541f4ab60ba28696"
+  integrity sha512-CBGajRrAGz3vitjPoOvcwxNnIW1FhOHdzaT4Di7udLarnU7eQMdxde7Yg+gUYvlUt7hjSdetoeMF4saOFfshzA==
+  dependencies:
+    consola "^2.15.0"
+    vue-lazy-hydration "1.0.0-beta.14"
 
 "@nujek/shared@latest":
   version "0.0.125"
@@ -1038,6 +1055,14 @@
   resolved "https://registry.yarnpkg.com/@nujek/storyblok/-/storyblok-3.0.0.tgz#8543f1b1306b32cbc3b1eb5f761a7135521ce952"
   integrity sha512-PUuGZAijp+G+d9FOhWjCSLdhH/JP09LRCreVTuEWic5ahRzFeTBFl5jGJZLHBvnwkFfD2THiCjbl9ppO98eebw==
   dependencies:
+    axios "^0.21.4"
+
+"@nujek/storyblok@^3.0.3":
+  version "3.0.3"
+  resolved "https://registry.yarnpkg.com/@nujek/storyblok/-/storyblok-3.0.3.tgz#94bcce08d3d331d19f644151d9f43a859ae3f12b"
+  integrity sha512-wQh3N2HuUMxCPLu5Y5FDVDukgk4lSBuzO+Fe0DwW0YbgpNocivYBsp2cGxvXwWniCJj7P6FT/O96NmVvdARedQ==
+  dependencies:
+    "@nujek/blok" latest
     axios "^0.21.4"
 
 "@nujek/ui@^3":
@@ -1415,7 +1440,7 @@
     consola "^2.15.0"
     eslint-webpack-plugin "^2.4.1"
 
-"@nuxtjs/tailwindcss@^4.2.0":
+"@nuxtjs/tailwindcss@^4.2.0", "@nuxtjs/tailwindcss@^4.2.1":
   version "4.2.1"
   resolved "https://registry.yarnpkg.com/@nuxtjs/tailwindcss/-/tailwindcss-4.2.1.tgz#bd0dc5e0d7f02aebe15bc2384c003687e6e5d508"
   integrity sha512-Sku7VETunn5YmvzkXFDuRdP1gUGau02eh5HtcAsI9//1hpSuEN49n3XhatBrPOXQ57WhUlnjXf0/LjT9KQH0+A==
@@ -9542,6 +9567,11 @@ vue-hot-reload-api@^2.3.0:
   version "2.3.4"
   resolved "https://registry.yarnpkg.com/vue-hot-reload-api/-/vue-hot-reload-api-2.3.4.tgz#532955cc1eb208a3d990b3a9f9a70574657e08f2"
   integrity sha512-BXq3jwIagosjgNVae6tkHzzIk6a8MHFtzAdwhnV5VlvPTFxDCvIttgSiHWjdGoTJvXtmRu5HacExfdarRcFhog==
+
+vue-lazy-hydration@1.0.0-beta.14:
+  version "1.0.0-beta.14"
+  resolved "https://registry.yarnpkg.com/vue-lazy-hydration/-/vue-lazy-hydration-1.0.0-beta.14.tgz#50b08003c2317afd15bf33871c4bbd0b952ca808"
+  integrity sha512-Xm6e1SL9WBlmMWIDThteOUGyiBNGyPTG4S5KZLMlbJZEvTzRpqAAiFhg4BQyohwufyvpj+WTdr63fhNxK43RQA==
 
 vue-loader@^15.9.7:
   version "15.9.8"

@@ -1,5 +1,5 @@
 <template>
-  <Bloks :bloks="story.content.bloks" />
+  <Blok :bloks="story.content.bloks" />
 </template>
 <script>
 import { story } from "~/__mocks__/story";
