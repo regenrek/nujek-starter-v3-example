@@ -1,3 +1,3 @@
 vscode:
   extensions:
-    - octref.vetur@latest
+    - octref.vetur@0.34.1
