@@ -40,18 +40,18 @@ export const story =
         title_size: 'h3',
         description: ''
       },
-      // {
-      //   _uid: 'f8710bcb-f4cd-4f13-99b7-31489f5c92f7',
-      //   image: '',
-      //   title: 'BlokTextImage Title',
-      //   buttons: [],
-      //   variant: 'image_right_text_left',
-      //   subtitle: '',
-      //   component: 'BlokTextImage2',
-      //   title_tag: 'h3',
-      //   title_size: 'h3',
-      //   description: ''
-      // },
+      {
+        _uid: 'f8710bcb-f4cd-4f13-99b7-31489f5c92f7',
+        image: '',
+        title: 'BlokTextImage Title',
+        buttons: [],
+        variant: 'image_right_text_left',
+        subtitle: '',
+        component: 'BlokTextImage2',
+        title_tag: 'h3',
+        title_size: 'h3',
+        description: ''
+      },
       {
         _uid: 'a3338ab4-c81f-438a-95fe-e3c805527b72',
         image: {
@@ -131,7 +131,7 @@ export const story =
       og_description: '',
       twitter_description: ''
     },
-    component: 'Landingpage',
+    component: 'NotExists',
     breadcrumbs: [],
     featuredImage: {
       id: 2880114,

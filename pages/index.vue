@@ -1,16 +1,16 @@
 <template>
-  <Blok :bloks="story.content.bloks" />
+  <Blok :blok="story.content" />
 </template>
 <script>
-import { story } from "~/__mocks__/story";
+import { story } from '~/__mocks__/story'
 
 export default {
-  data() {
-    return {
-      story,
-    };
-  },
   components: {},
+  data () {
+    return {
+      story
+    }
+  }
   //   async asyncData({ $storyapi, error, route }) {
   //     try {
 
@@ -34,5 +34,5 @@ export default {
   //         })
   //     }
   // }
-};
+}
 </script>
